@@ -1,7 +1,7 @@
 
 // index.js
 
-const { fetchMyIP,fetchCoordsByIP,fetchISSFlyOverTimes,nextISSTimesForMyLocation } = require('./issf');
+const { fnextISSTimesForMyLocation } = require('./issf');
 
 const printPassTimes = function(passTimes) {
   for (const pass of passTimes) {
